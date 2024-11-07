@@ -64,9 +64,9 @@ while True:
 driver.quit()
 
 df = pd.DataFrame(data)
-df['row_id'] = df.index
+df['row_id'] = df.index + 1
 reorder = ['row_id', 'Game Name', 'Discount', 'Price', 'Rating', 'Release Date']
 df = df[reorder]
 
 df.to_csv('steamdb_sales.csv', index=False)
-print("Dataframe salvo em 'steamdb_sales.csv'.")
+
