@@ -1,4 +1,4 @@
-# Projeto de ETL - Steamdb
+# Projeto de Engenharia de dados: ETL - Steam sales database
 
 Este repositório contém um projeto de ETL que consiste em três etapas:
 
