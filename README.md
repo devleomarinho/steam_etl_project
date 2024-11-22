@@ -1,6 +1,6 @@
-# Case técnico - beAnalytic
+# Projeto de ETL - Steamdb
 
-Este repositório contém a solução do teste técnico da beAnalytic, que consiste em três etapas:
+Este repositório contém um projeto de ETL que consiste em três etapas:
 
 - **Extração dos dados**: Criei um script de webscraping que coleta os dados de vendas de jogos do site [SteamDB](https://steamdb.info/sales/). O script utiliza as bibliotecas Selenium para automação de navegação e extração dos dados e Pandas para manipulação e exportação dos dados;
 - **Armazenamento no Google BigQuery** - Criação do dataset e tabela na cloud;
